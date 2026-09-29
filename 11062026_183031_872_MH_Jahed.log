@@ -1,0 +1,297 @@
+Jun 11 18:30:17 MH-Jahed locationd[76] <Notice>: {"msg":"#CLGNSSStateQueryAssertion,daemon,sendGnssStatusUpdateToClient", "timeSinceLastUpdate":"20.005", "isMinTimeLapsedBetween2UpdatesToClient":1, "isLastSessionStopped":0, "didLastSessionYield":0, "didSessionYieldDuringLastUpdateToClient":0, "isStatusChangedFromPreviousUpdateToClient":0, "sendUpdateToCLient":1}
+Jun 11 18:30:17 MH-Jahed locationd[76] <Notice>: #CLGNSSStateQueryAssertion,daemon,sendGnssStatusUpdateToClient sent to client
+Jun 11 18:30:17 MH-Jahed CommCenter[100] <Notice>: #I handleAreGPSSatsVisibleChanged: areGpsSatsVisible = false
+Jun 11 18:30:17 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.awdl0: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:3520076
+Jun 11 18:30:17 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.awdl0: currentInfraTrafficType:9274 checking if realtime upgrade required with inputPackets:0 outputPackets:0 packetThreshold:50
+Jun 11 18:30:17 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 2, details 0, Thermal Budget 753
+Jun 11 18:30:17 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 0, details 0, Thermal Budget 1145
+Jun 11 18:30:17 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414746706, Thermal Budget 3653
+Jun 11 18:30:17 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414742610, Thermal Budget 4624
+Jun 11 18:30:17 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 10, details 0, Thermal Budget 1092
+Jun 11 18:30:17 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 0, Timescale 1, Requested Budget 3755, Granted Budget 1145, Thermal Budget 1145, PowerBudgetUPO 3755
+Jun 11 18:30:17 MH-Jahed wifid(CPMS)[53] <Notice>: <Notice> Ack from CPMS clientId 2. Budgets: {
+    "cpms_ts_100" = 1145;
+}
+Jun 11 18:30:17 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Given budget from CPMS is <private>
+Jun 11 18:30:17 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Budget from CPMS: <private>, Cached Budgets: <private>
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandleCpmsAllocatedBudgetReturnIndex:]: WiFiBatteryMgmt : budget100ms : 1145
+Jun 11 18:30:17 MH-Jahed CommCenter(CPMS)[100] <Notice>: <Notice> Ack from CPMS clientId 4. Budgets: {
+}
+Jun 11 18:30:17 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Acked CPMS succeeded for power budget <private>
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandleCpmsAllocatedBudgetReturnIndex:]: WiFiBatteryMgmt : budget1s : 0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerCpmsCallbackConfiguration:]_block_invoke: WiFiBatteryMgmt :  Budget to be written is 31, last was 31 : ignoring
+Jun 11 18:30:17 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: #I [<private>] queueing qmux pdu for svc=226 client=6 (txid=3298 msgid=0xe025) [tx-slot=1, rx-pending=0]
+Jun 11 18:30:17 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe025 Bin=[<private>]
+Jun 11 18:30:17 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe025 Bin=[<private>]
+Jun 11 18:30:17 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Sent power budget to baseband succeeded for <private>
+Jun 11 18:30:17 MH-Jahed backboardd(ColourSensorFilterPlugin)[70] <Notice>: [ALS] ts=3520.163 lux=8.440<private> xy=(0.329 0.33Jun 11 18:30:17 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.en0: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -43 noise -89 snr 28. Core0Rssi:-43 Core1Rssi:0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceProcessRSSIEvent Feeding RSSI data to LQM - RSSI:-43 Core0-RSSI:-43 Core1-RSSI:0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : BSS List info for network : SYLHET-NET_5G : chanCount5GHz: [1] chanCount24GHz: [0] chanCount6GHz: [0]
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : AP environment is Single Band AP for SYLHET-NET_5G(ac:15:a2:d5:e2:fc). Last applied environment is Single Band AP. Early exit ? : [0]. augmented from scan results ? : [1]
+Jun 11 18:30:17 MH-Jahed wifid[53] <Notice>: __WiFiLQAMgrLogStats(<redacted>:Stationary): InfraUptime:3443.2secs Channel: 149 Bandwidth: 80Mhz Rssi: -43 {-43 0} Cca: 55 (S:0 O:0 I:0) Snr: 28 BcnPer: 4.1% (49, 50.8%) TxFrameCnt: 0 TxPer: 0.0% TxReTrans: 0 TxRetryRatio: 0.0% RxFrameCnt: 1 RxRetryFrames: 0 RxRetryRatio: 0.0% TxRate: 72222 RxRate: 6000 FBRate: 21667 TxFwFrms: 0 TxFwFail: 0 Noise: -89 {-92 -89 3} time: 78.1secs fgApp: com.apple.AccessibilityUIServer V: T Band: 5GHz
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi:  (HighBand) rxCrsGlitch=0 rxBphyCrsGlitch=0 rxStart=907 rxBadPLCP=0 rxBphyBadPLCP=0 rxBadFCS=52 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=13 rxResponseTimeout=0 rxNoDelim=13 rxFrmTooLong=0 rxFrmTooShort=1
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: (HighBand) txRTSFrm=0 txRTSFail=0 rxCTSUcast=0 rxRTSUcast=0 txCTSFrm=0 txAMPDU=0 rxBACK=0 txPhyError=0 txAllFrm=0 txMPDU=1 txUcast=0 rxACKUcast=0 OfdmDesense=0 dB
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: (HighBand) rxBeaconMbss=48 rxBeaconObss=0 rxDataUcastMbss=0 rxMgmtUcastMbss=0 rxCNTRLUcast=0 txACKFrm=0 txBACK=0 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=1 rxMgmtMcast=48 rxDrop20s=0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: RX AMPDU (HighBand) rxAmpdu=0 txBACK(Ucode)=0 rxMpduInAmpdu=0 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=0 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: WME RX MPDUs (rxPER 0 %) in tids 0:2, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi:  (HighBand) rxToss=0 rxLastTossRsn=39 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=1 rxUndec=0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<0 0 0 0 0 0 0 0 0 0 0> (4999ms)
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: L3 Control VO TX(00:00:00:00:00:00) Success=0 NoACK=0 Expired=0 OtherErr=0
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerGetAppState: app state for DPS action : Foreground isAnyAppInFG:yes isFTactive:no isLatencySensitiveAppActive:no
+Jun 11 18:30:17 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] BEGIN REQ [GET INTF NAME] (pid=142 proc=symptomsd bundleID=com.apple.symptomsd codesignID=com.apple.symptomsd service=com.apple.private.corewifi-xpc qos=17 intf=(null) uuid=8C021 info=(null))
+Jun 11 18:30:17 MH-Jahed wifid(WiFiPolicy)[53] <Error>: __WiFiLQAMgrCheckForPossibleRoam waitForRoam: 1, plausibleRoamCandidateFound: 0, lastScanAge: 0.00, largeNetworkEnvironment: 0, isRealTimeApplication: 0Jun 11 18:30:19 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.awdl0: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:3522134
+Jun 11 18:30:19 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.awdl0: currentInfraTrafficType:9274 checking if realtime upgrade required with inputPackets:1 outputPackets:1 packetThreshold:50
+Jun 11 18:30:19 MH-Jahed backboardd(ColourSensorFilterPlugin)[70] <Notice>: [ALS] ts=3522.134 lux=7.985<private> xy=(0.328 0.329) chs=[176 303 348 303 237] CCT1=5640.183 gain=256x mode=<private> subsamples=116 rawLux=7.985 nits=0 xTalk=[0 0 0 0 0] status=0x9B copyEvent=0
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 2, details 0, Thermal Budget 763
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 0, details 0, Thermal Budget 1151
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414746706, Thermal Budget 3675
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414742610, Thermal Budget 4654
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 10, details 0, Thermal Budget 1100
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 0, Timescale 1, Requested Budget 3755, Granted Budget 1151, Thermal Budget 1151, PowerBudgetUPO 3755
+Jun 11 18:30:19 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Given budget from CPMS is <private>
+Jun 11 18:30:19 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Budget from CPMS: <private>, Cached Budgets: <private>
+Jun 11 18:30:19 MH-Jahed CommCenter(CPMS)[100] <Notice>: <Notice> Ack from CPMS clientId 4. Budgets: {
+}
+Jun 11 18:30:19 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Acked CPMS succeeded for power budget <private>
+Jun 11 18:30:19 MH-Jahed wifid(CPMS)[53] <Notice>: <Notice> Ack from CPMS clientId 2. Budgets: {
+    "cpms_ts_100" = 1151;
+}
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandleCpmsAllocatedBudgetReturnIndex:]: WiFiBatteryMgmt : budget100ms : 1151
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandleCpmsAllocatedBudgetReturnIndex:]: WiFiBatteryMgmt : budget1s : 0
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerCpmsCallbackConfiguration:]_block_invoke: WiFiBatteryMgmt :  Budget to be written is 32 (last was 31) !
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerCpmsCallbackConfiguration:]_block_invoke_2: WiFiBatteryMgmt :  Async CPMS Handler
+Jun 11 18:30:19 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: #I [<private>] queueing qmux pdu for svc=226 client=6 (txid=3300 msgid=0xe025) [tx-slot=1, rx-pending=0]
+Jun 11 18:30:19 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe025 Bin=[<private>]
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceSetPowerBudget: ifName en0, set 32, error 0
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandlePowerAdmissionResponse:]: WiFiBatteryMgmt : Changed budget from battery module. Previous value :31 and new value :32
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceIsChannelSupportedForRanging: channel 149 is supported for ranging, suggested channel 0
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceIsMultipleChannelRangingSupported: multiple channel ranging is supported
+Jun 11 18:30:19 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe025 Bin=[<private>]
+Jun 11 18:30:19 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Sent power budget to baseband succeeded for <private>
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceIsSWCorrectionRequiredForRanging: SW correction is not needed for ranging on this device
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceIsVisionResponderForRanging: isVisionResponder 0
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceIsEnableIotBehavior: isEnableIotBehavior 0
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager isPowerResourceAvailable:]: WiFiBatteryMgmt : resource is available for type Hosted Network. claimedResource is 32
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerHandleChangedPowerBudgetValue: WiFiBatteryMgmt : resource has become available for auto-join/awdl. manager->state.enable(1)
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiBatteryMgmt : -[WiFiBatteryManager requestPowerResource:withDetails:]: Power resource request for AutoJoin added. Pending=1.
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager isPowerResourceAvailable:]: WiFiBatteryMgmt : resource is available for type AutoJoin. claimedResource is 32
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager admissionCheck]: WiFiBatteryMgmt : resource is already known and available for AutoJoin request type.
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandlePowerAdmissionResponse:]: WiFiBatteryMgmt : Claimed resource is 32
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerHandleUnchangedPowerBudgetValue: WiFiBatteryMgmt : power budget resource is present and unchanged!.
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerStartAutoJoinAndReply: AUTO-JOIN: Triggered (trigger=23)
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerCopyLeechedLocation: not authorized to use location
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : BSS List info for network : SYLHET-NET_5G : chanCount5GHz: [1] chanCount24GHz: [0] chanCount6GHz: [0]
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : AP environment is Single Band AP for SYLHET-NET_5G(ac:15:a2:d5:e2:fc). Last applied environment is Single Band AP. Early exit ? : [0]. augmented from scan results ? : [1]
+Jun 11 18:30:19 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] [wifi-network-sharing] Updating associated network (new=<redacted> - ssid=<redacted> (1822230828), bssid=<redacted>, security=wpa2-personal, rsn=[mcast=aes_ccm, bip=none, ucast={ aes_ccm }, auths={ psk }, mfp=no, caps=0x0], channel=5g149/80, cc=US, phy=n/ac, rssi=-43, wasConnectedDuringSleep=0, bi=100, age=3902ms (3518272796708), match=[<redacted> - ssid=<redacted> (1822230828), security=wpa3-transition, privateMAC=[(null) ((null))], captive=[state=no, login=(null)], bbh=[not broken (2026-06-08 14:28:46.398 +0600)], assoc=2026-06-11 17:32:54.449 +0600 (auto), disassoc=[2026-06-09 14:08:14.217 +0600 (2)], addedAt=[2026-04-10 13:48:40.710 +0600 (reason=WiFi Settings, vers=(null))], bssList=[(bssid=<redacted>, channel=5g149/80, assoc=2026-06-11 17:32:54.449 +0600)]], old=<redacted> - ssid=<redacted> (1822230828), bssid=<redacted>, security=wpa2-personal, rsn=[mcast=aes_ccm, bip=none, ucast={ aes_ccm }, auths={ psk }, mfp=no, caps=0x0], channel=5g149/80, cc=US, phy=n/ac, rssi=-43, wasConnectedDuringSleep=0, bi=100, age=8912ms (3513262927333), match=[<redacte)
+Jun 11 18:30:19 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerStartAutoJoinAndReply: prefer 6E enabled 1
+Jun 11 18:30:19 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] AUTO-JOIN: Auto-join triggered (uuid=77870, addedAt=(null), params=trigger=ppm, mode=best, preferredChannels=((null)), target=((null)), autoHotspot=0, throttled=0)
+Jun 11 18:30:19 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] AUTO-JOIN: Matching auto-join request is already active/pending, ignoring redundant invocation
+Jun 11 18:30:19 MH-Jahed ptpd[85] <Notice>:             [0xc004] | <event> PTPEventCodeAppleGroupAdded
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond[1117] <Notice>: daemon exiting
+Jun 11 18:30:19 MH-Jahed lsd(libxpc.dylib)[117] <Notice>: [0x9231df000] invalidated because the client process (pid 1117) either cancelled the connection or exited
+Jun 11 18:30:19 MH-Jahed kernel(Sandbox)[0] <Notice>: /System/Library/PrivateFrameworks/NanoTimeKit.framework/nanotimekitcompaniond[1119] ==> temporary-sandbox
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(libsystem_coreservices.dylib)[1119] <Notice>: _dirhelper_update_tmpdir: old=<private>, new=<private>
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond[1119] <Notice>: daemon is running with temporary directory /var/mobile/tmp/com.apple.nanotimekitcompaniond/
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: Has NanoRegistry entitlement com.apple.nano.nanoregistry.generalaccess
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(libMobileGestalt.dylib)[1119] <Notice>: Cache loaded with 6309 pre-cached in CacheData and 76 items in CacheExtra.
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(PairedDeviceRegistry)[1119] <Notice>: #refresh_da17 Starting bootstrap sync refresh
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(PairedDeviceRegistry)[1119] <Notice>: #refresh_da17 0.477167ms Daemon is idle, creating empty collection
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(PairedDeviceRegistry)[1119] <Notice>: #refresh_da17 0.597250ms New collection swapped in
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(PairedDeviceRegistry)[1119] <Notice>: #refresh_da17 history 3fffffffffffffff -> 0000000000000001
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(PairedDeviceRegistry)[1119] <Notice>: assignNewState complete
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(PairedDeviceRegistry)[1119] <Notice>: RegistryCrux fully initialized and synced
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Error>: Creating a CLKDevice without an PDRDevice: (null)
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: Creating a CLKDevice. pdrDevice: (null)
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice sizeClass: 7
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice screenBounds: <private>
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice screenScale: 2.0
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice screenCornerRadius: 44.0
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice isLuxo: 1
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice supportsTritium: 0
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice productType: -1
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice NRDevicePropertyDeviceHousingColor: (null)
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Error>: <private>has no material, defaulting to light aluminum
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice <private>material: 1
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: _collectionForDeviceBrand collection:1
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice <private>collection: 1
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice isZeusBlack: 0
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice isZeus10: 0
+Jun 11 18:30:19 MH-Jahed nanotimekitcompaniond(ClockKit)[1119] <Notice>: CLKDevice isExplorer: 1
+Jun 11 18:30:19 MH-Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: Removed last relative-start-date-defining assertion for process xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: [xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}:763] Set jetsam priority to 0 [0] flag[1]
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: [xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}:763] Suspending task.
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: Calculated state for xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}: running-suspended (role: None) (endowments: (null))
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 10, Timescale 0, Requested Budget 7533, Granted Budget 7533, Thermal Budget 1100, PowerBudgetUPO 7533
+Jun 11 18:30:19 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 10, Timescale 1, Requested Budget 3162, Granted Budget 1100, Thermal Budget 1100, PowerBudgetUPO 3162
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>: AggregateDevice_CommonBase.cpp:2521  CPMS: Setting Actuator ThermalBudget
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: [xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}:763] Shutdown sockets (ALL)
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: [xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}:763] Result 45 setting darwin role to None: Operation not supported, falling back to setting priority
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>:          CPMSInterface.mm:366   CPMS Haptics -- In Reference Dictionary: {
+    "cpms_ts_100" = 1100;
+    "cpms_ts_i" = 7533;
+}
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>:          CPMSInterface.mm:277   CPMS Continuous Haptics -- In Battery Referenced Value[100ms]: 1100 ; Efficiency Factor: 0.750
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>:          CPMSInterface.mm:277   CPMS Continuous Haptics -- In Battery Referenced Value[1ms]: 7533 ; Efficiency Factor: 0.750
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>:          CPMSInterface.mm:333   CPMS Continuous Haptics -- Out APC2 Values { thermal_100 : 825 }, { peakpower_i : 5650 }
+Jun 11 18:30:19 MH-Jahed kernel(AppleHapticsSupportLEAP)[0] <Notice>: AHSLeelaPhone::setPowerBudget new budget=825 mW for 100 ms timescale via budget symbol DtwjH/IjameFuv0QcrwLn7Si9+k=
+Jun 11 18:30:19 MH-Jahed kernel(AppleHapticsSupportLEAP)[0] <Notice>: AppleHapticsSupportLEAP::_createAKCIWriteRequest writing DtwjH/IjameFuv0QcrwLn7Si9+k= to address 0x0000D330
+Jun 11 18:30:19 MH-Jahed kernel(AppleHapticsSupportLEAP)[0] <Notice>: AppleHapticsSupportLEAP::maybeSendAKCIRequest sending AKCI request
+Jun 11 18:30:19 MH-Jahed kernel(AppleHapticsSupportLEAP)[0] <Notice>: AppleHapticsSupportLEAP::_createAKCIWriteRequest writing DtwjH/IjameFuv0QcrwLn7Si9+k= to address 0x00120CD0
+Jun 11 18:30:19 MH-Jahed kernel(AppleHapticsSupportLEAP)[0] <Notice>: AppleHapticsSupportLEAP::maybeSendAKCIRequest sending AKCI request
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>:      Device_HAL_Common.mm:481   Synchronously setting thermal budget to 825 mW on physical device 65.
+Jun 11 18:30:19 MH-Jahed audiomxd(RunningBoardServices)[109] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed audiomxd(CoreAudio)[109] <Notice>:       HALS_IOA2Device.cpp:2272   HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|65 +++++++++------>
+Jun 11 18:30:19 MH-Jahed audiomxd(CoreAudio)[109] <Notice>:       HALS_IOA2Device.cpp:2349   HALS_IOA2Device::IOAudio2DeviceNotificationPortMessageHandler: <private>|65 <------+++++++++
+Jun 11 18:30:19 MH-Jahed SpringBoard(RunningBoardServices)[252] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: [xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}:763] Set darwin priority to: PRIO_DARWIN_BG
+Jun 11 18:30:19 MH-Jahed runningboardd(RunningBoard)[34] <Notice>: [xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}:763] check if suspended process is holding locks
+Jun 11 18:30:19 MH-Jahed audiomxd(VirtualAudio)[109] <Notice>:      Device_HAL_Common.mm:463   Synchronously setting peak power budget to 5650 mW on physical device 65.
+Jun 11 18:30:19 MH-Jahed audiomxd(CPMS)[109] <Notice>: <Notice> Ack from CPMS clientId 6. Budgets: {
+    "cpms_ts_100" = 1100;
+    "cpms_ts_i" = 7533;
+}
+Jun 11 18:30:19 MH-Jahed WirelessRadioManagerd(RunningBoardServices)[51] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed locationd(RunningBoardServices)[76] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed symptomsd(RunningBoardServices)[142] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed wifid(RunningBoardServices)[53] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed UserEventAgent(RunningBoardServices)[32] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed useractivityd(RunningBoardServices)[241] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:30:19 MH-Jahed locationd[76] <Notice>: {"msg":"RBS #AppMonitor process monitor update handler invoked", "pid":763, "bundleID":"com.apple.PDFKit.PDFImporter", "state":"RunningSuspended"}
+Jun 11 18:30:19 MH-Jahed locationd[76] <Notice>: {"msg":"RBS #AppMonitor Post Application State Change Notification", "notification":"BackgroundTaskSuspended", "pid":763, "bundleId":"com.apple.PDFKit.PDFImporter"}
+Jun 11 18:30:19 MH-Jahed PerfPowerServices(RunningBoardServices)[433] <Notice>: Received state update for 763 (xpcservice<com.apple.PDFKit.PDFImporter([osservice<com.apple.searchd>:288])>{vt hash: 0}{definition:com.apple.PDFKit.PDFImporter[extension][client]}, running-suspended-NotVisible
+Jun 11 18:Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: IO80211PeerMonitor::checkForDPS()  Enter
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.en0: MonitorTimer en0/5000: packet counts: I0 Q0 O1
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.en0: postMessageOnInfraInterface:3463 posting msgId:169 on skywalk infraInterface
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: LQM-WiFi: BE : Count: 0 avgLatencyMs:0 maxLatencyMs:0
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: LQM-WiFi: BK : Count: 0 avgLatencyMs:0 maxLatencyMs:0
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: LQM-WiFi: VI : Count: 0 avgLatencyMs:0 maxLatencyMs:0
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: LQM-WiFi: VO : Count: 1 avgLatencyMs:3 maxLatencyMs:3
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: ---------- BEGIN ----------
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: Gateway (AC:15:A2:D5:E2:FA, 192.168.0.1) - Tx [S:1 (BE:0 BK:0 VI:0 VO:1), F:0 (BE:0 BK:0 VI:0 VO:0), PER:0.0%], TxRe [0 (0%)], Rx [2 (BE:2 BK:0 VI:0 VO:0)], RxRe [0 (0%)], RxUc [0], RxMc [2 (B:0 O:2)]
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: Bonjour MC (33:33:00:00:00:00) - Tx [S:0, F:0, PER: 0.0%]
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: Other MC (01:00:00:00:00:00) - Tx [S:0, F:0, PER: 0.0%]
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: BC (FF:FF:FF:FF:FF:FF) - Tx [S:0, F:0, PER: 0.0%]
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: Total unicast peers: 0
+Jun 11 18:30:20 MH-Jahed kernel()[0] <Notice>: InfraPeers: ----------- END -----------
+Jun 11 18:30:20 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: LQM-TX: Success:1(100.0%) FwFail:0(0.0%) FwMaxRetries:0(0.0%) NoACK:0(0.0%) MiscDrops:0(0.0%) NoBuf:0(0.0%) FwNoRes:0(0.0%) ChipErr:0(0.0%) Exp:0(0.0%) FwFcdExpiry:0(0.0%) FwFree:0(0.0%)
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16348
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16352
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16356
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16360
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16364
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16368
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16372
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16376
+Jun 11 18:30:20 MH-Jahed wifid(IO80211)[53] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16380
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16348
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16352
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16356
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16360
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16364
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16368
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping Padding Read offset is 16372
+Jun 11 18:30:20 MH-Jahed wifip2pd(IO80211)[182] <Notice>: Apple80211EventMonitoringHelper:5877 Skipping PaddinJun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Acquiring keep-alive with reason: Work scheduling after nonwake
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Keep-alive reasons: ["Work scheduling after nonwake": 1]
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Nonwake event fired for date: 2026-06-11T18:30:21+06:00
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: No wake work scheduled
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: No wake work scheduled
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Scheduling nonwaking work for: 2026-06-11T18:35:21+06:00 in 299.999858s
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Scheduling waking work for: 2026-06-11T18:35:21+06:00 in 299.999751s
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Acquiring keep-alive with reason: wake scheduling
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Keep-alive reasons: ["wake scheduling": 1, "Work scheduling after nonwake": 1]
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: __xpc_activity_unregister: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0) seqno: 1, (is registered)
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: _xpc_activity_dispose: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0) seqno: 1, (not running)
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: _xpc_activity_unregister: com.apple.chronod.nextScheduledTimelineRefresh 1, last registration: true
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Scheduling waking task for adjusted date: 2026-06-11T18:35:21+06:00 in 299.999963s
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: xpc_activity_register: com.apple.chronod.nextScheduledTimelineRefresh, criteria: dictionary
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: _xpc_activity_register: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0), 0
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: xpc_activity_set_criteria: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0), dict
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Releasing keep-alive with reason: Work scheduling after nonwake
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Releasing keep-alive with reason: wake scheduling
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Keep-alive reasons: ["wake scheduling": 1]
+Jun 11 18:30:21 MH-Jahed chronod(ChronoCore)[114] <Notice>: Keep-alive reasons: [:]
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: xpc_activity_set_criteria, lower half: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0), dict
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: _xpc_activity_set_criteria: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0), dict
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: _xpc_activity_set_criteria: xpc_set_event com.apple.chronod.nextScheduledTimelineRefresh, 1
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: xpc_activity_set_criteria: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0), setting state now to 1
+Jun 11 18:30:21 MH-Jahed chronod(libxpc.dylib)[114] <Notice>: _xpc_activity_set_state: com.apple.chronod.nextScheduledTimelineRefresh (0x838b84dc0), 1
+Jun 11 18:30:21 MH-Jahed UserEventAgent(com.apple.cts)[32] <Notice>: Unregistered on XPC remove event: com.apple.chronod.nextScheduledTimelineRefresh (0x6a32b4f00)
+Jun 11 18:30:21 MH-Jahed UserEventAgent(com.apple.cts)[32] <Notice>: Creating on XPC add event: com.apple.chronod.nextScheduledTimelineRefresh
+Jun 11 18:30:21 MH-Jahed dasd[83] <Notice>: CANCELED: com.apple.chronod.nextScheduledTimelineRefresh:51DAA7 at priority 30
+Jun 11 18:30:21 MH-Jahed UserEventAgent(com.apple.cts)[32] <Notice>: Created: com.apple.chronod.nextScheduledTimelineRefresh (0x6a32b4f00)
+Jun 11 18:30:21 MH-Jahed UserEventAgent(DuetActivityScheduler)[32] <Notice>: SUBMITTING: com.apple.chronod.nextScheduledTimelinJun 11 18:30:22 MH-Jahed backboardd(ColourSensorFilterPlugin)[70] <Notice>: [ALS] ts=3525.091 lux=8.209<private> xy=(0.333 0.338) chs=[162 315 357 312 243] CCT1=5418.271 gain=256x mode=<private> subsamples=116 rawLux=8.209 nits=0 xTalk=[0 0 0 0 0] status=0x9B copyEvent=0
+Jun 11 18:30:22 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 2, details 0, Thermal Budget 778
+Jun 11 18:30:22 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 0, details 0, Thermal Budget 1159
+Jun 11 18:30:22 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414746706, Thermal Budget 3708
+Jun 11 18:30:22 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 7, details 1414742610, Thermal Budget 4697
+Jun 11 18:30:22 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::setDetailedThermalPowerBudget:setDetailedThermalPowerBudget: clientId 10, details 0, Thermal Budget 1112
+Jun 11 18:30:22 MH-Jahed kernel(ApplePPMCPMS)[0] <Notice>: ApplePPMPolicyCPMS::resolveClientBudgets:Budget Trace: clientId 0, Timescale 1, Requested Budget 3755, Granted Budget 1159, Thermal Budget 1159, PowerBudgetUPO 3755
+Jun 11 18:30:22 MH-Jahed wifid(CPMS)[53] <Notice>: <Notice> Ack from CPMS clientId 2. Budgets: {
+    "cpms_ts_100" = 1159;
+}
+Jun 11 18:30:22 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Given budget from CPMS is <private>
+Jun 11 18:30:22 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Budget from CPMS: <private>, Cached Budgets: <private>
+Jun 11 18:30:22 MH-Jahed CommCenter(CPMS)[100] <Notice>: <Notice> Ack from CPMS clientId 4. Budgets: {
+}
+Jun 11 18:30:22 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Acked CPMS succeeded for power budget <private>
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandleCpmsAllocatedBudgetReturnIndex:]: WiFiBatteryMgmt : budget100ms : 1159
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerHandleCpmsAllocatedBudgetReturnIndex:]: WiFiBatteryMgmt : budget1s : 0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: -[WiFiBatteryManager WiFiBatteryManagerCpmsCallbackConfiguration:]_block_invoke: WiFiBatteryMgmt :  Budget to be written is 32, last was 32 : ignoring
+Jun 11 18:30:22 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: #I [<private>] queueing qmux pdu for svc=226 client=6 (txid=3303 msgid=0xe025) [tx-slot=1, rx-pending=0]
+Jun 11 18:30:22 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: QMI: Svc=0xe2(BSP) Req MsgId=0xe025 Bin=[<private>]
+Jun 11 18:30:22 MH-Jahed CommCenter(libATCommandStudioDynamic.dylib)[100] <Notice>: QMI: Svc=0xe2(BSP) Resp MsgId=0xe025 Bin=[<private>]
+Jun 11 18:30:22 MH-Jahed CommCenter(libBasebandManager.dylib)[100] <Notice>: #I Sent power budget to baseband succeeded for <private>
+Jun 11 18:30:22 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.awdl0: isInfraRealtimePacketThresholdAllowed allowed:1 option:32 threshold:50 noRegistrations:1 cachedPeerCount:0 fastDiscoveryInactive:1 fastDiscoveryOnSince:3525222
+Jun 11 18:30:22 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.awdl0: currentInfraTrafficType:9274 checking if realtime upgrade required with inputPackets:0 outputPackets:0 packetThreshold:50
+Jun 11 18:30:22 MH-Jahed kernel()[0] <Notice>: I [dk] <private>@28868: DTIM missed count: p2p(0), iovar(0), scan(38), roam(0), homechan(487), sleep(206), misc(0)
+Jun 11 18:30:22 MH-Jahed backboardd(ColourSensorFilterPlugin)[70] <Notice>: [ALS] ts=3525.338 lux=8.142<private> xy=(0.322 0.322) chs=[190 306 360 303 240] CCT1=5808.540 gain=256x mode=<private> subsamples=116 rawLux=8.142 nits=0 xTalk=[0 0 0 0 0] status=0x9B copyEvent=0
+Jun 11 18:30:22 MH-Jahed Jun 11 18:30:22 MH-Jahed kernel()[0] <Notice>: wlan0:com.apple.p2p.en0: IO80211PeerManager::reportDataPathEvents APPLE80211_M_RSSI_CHANGED RSSI -44 noise -89 snr 24. Core0Rssi:-44 Core1Rssi:0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceProcessRSSIEvent Feeding RSSI data to LQM - RSSI:-44 Core0-RSSI:-44 Core1-RSSI:0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : BSS List info for network : SYLHET-NET_5G : chanCount5GHz: [1] chanCount24GHz: [0] chanCount6GHz: [0]
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : AP environment is Single Band AP for SYLHET-NET_5G(ac:15:a2:d5:e2:fc). Last applied environment is Single Band AP. Early exit ? : [0]. augmented from scan results ? : [1]
+Jun 11 18:30:22 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] BEGIN REQ [GET INTF NAME] (pid=142 proc=symptomsd bundleID=com.apple.symptomsd codesignID=com.apple.symptomsd service=com.apple.private.corewifi-xpc qos=17 intf=(null) uuid=F2631 info=(null))
+Jun 11 18:30:22 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] [F2631] Incoming QoS is less than 'default', promoting to 'default'
+Jun 11 18:30:22 MH-Jahed wifid(CoreWiFi)[53] <Notice>: [corewifi] END REQ [GET INTF NAME] took 0.000640250s (pid=142 proc=symptomsd bundleID=com.apple.symptomsd codesignID=com.apple.symptomsd service=com.apple.private.corewifi-xpc qos=21 intf=(null) uuid=F2631 err=0 reply=<redacted>
+Jun 11 18:30:22 MH-Jahed wifid[53] <Notice>: __WiFiLQAMgrLogStats(<redacted>:Stationary): InfraUptime:3448.2secs Channel: 149 Bandwidth: 80Mhz Rssi: -44 {-44 0} Cca: 65 (S:0 O:0 I:0) Snr: 24 BcnPer: 4.1% (49, 50.8%) TxFrameCnt: 1 TxPer: 0.0% TxReTrans: 0 TxRetryRatio: 0.0% RxFrameCnt: 2 RxRetryFrames: 0 RxRetryRatio: 0.0% TxRate: 72222 RxRate: 6000 FBRate: 21667 TxFwFrms: 2 TxFwFail: 0 Noise: -89 {-92 -89 3} time: 83.1secs fgApp: com.apple.AccessibilityUIServer V: T Band: 5GHz
+Jun 11 18:30:22 MH-Jahed symptomsd(SymptomEvaluator)[142] <Notice>: L2 Metrics on en0: rssi: -44 [-44,0] -> -44, snr: 24 (cca [wake/total] self/other/intf): [0,0]/[0,0]/[0,0]/65 (txFrames/txReTx/txFail): 1/0/0 -> (was/is) 0/0, txRate: 72.0, rxRate: 6.0, rssiEMA: -43.4, snrEMA: 25.4, txRateEMA: 85.3, rxRateEMA: 12.7, isPrimary: 1, radio: 802.11ac
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: WeightAvgLQM rssi=-43 snr=27 txRate=198611 rxRate=379916
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi:  (HighBand) rxCrsGlitch=5 rxBphyCrsGlitch=0 rxStart=1646 rxBadPLCP=2 rxBphyBadPLCP=0 rxBadFCS=30 rxFifo0Ovfl=0 rxFifo1Ovfl=0 rx_nobuf=0 rxAnyErr=34 rxResponseTimeout=2 rxNoDelim=28 rxFrmTooLong=0 rxFrmTooShort=0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: (HighBand) txRTSFrm=1 txRTSFail=0 rxCTSUcast=1 rxRTSUcast=0 txCTSFrm=0 txAMPDU=1 rxBACK=0 txPhyError=0 txAllFrm=10 txMPDU=0 txUcast=5 rxACKUcast=3 OfdmDesense=0 dB
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: (HighBand) rxBeaconMbss=49 rxBeaconObss=1 rxDataUcastMbss=0 rxMgmtUcastMbss=0 rxCNTRLUcast=8 txACKFrm=0 txBACK=4 ctxFifoFull=0 ctxFifo2Full=0 rxDataMcast=5 rxMgmtMcast=50 rxDrop20s=0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: RX AMPDU (HighBand) rxAmpdu=0 txBACK(Ucode)=4 rxMpduInAmpdu=0 rxholes=0 rxdup=0 rxstuck=0 rxoow=0 rxoos=0 rxaddbareq=0 txaddbaresp=0 rxbar=4 txdelba=0 rxdelba=0 rxQueued=0 rxRetryNoBA=0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: WME RX MPDUs (rxPER 0 %) in tids 0:1, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi:  (HighBand) rxToss=4 rxLastTossRsn=39 rxNoFrag=0 rxNoCmplId=0 rxNoHaddr=0 rxMulti=1 rxUndec=0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BE<0 0 0 0 0 0 0 0 0 0 0> (5002ms)
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> BK<0 0 0 0 0 0 0 0 0 0 0> (5002ms)
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VI<0 0 0 0 0 0 0 0 0 0 0> (5002ms)
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: TX(00:00:00:00:00:00) AC<SU MS NB NRS NA CM EX TF FFP MRET FLE> VO<1 0 0 0 0 0 0 0 0 0 0> (5002ms)
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: LQM-WiFi: L3 Control VO TX(00:00:00:00:00:00) Success=1 NoACK=0 Expired=0 OtherErr=0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiDeviceManagerGetAppState: app state for DPS action : Foreground isAnyAppInFG:yes isFTactive:no isLatencySensitiveAppActive:no
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Error>: __WiFiLQAMgrCheckForPossibleRoam waitForRoam: 1, plausibleRoamCandidateFound: 0, lastScanAge: 0.00, largeNetworkEnvironment: 0, isRealTimeApplication: 0, isEdgeBss: 0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: WiFiLQAMgrCopyCoalescedUndispatchedLQMEvent: Rssi: -44 Snr:24 Cca: 65 TxFrames: 1 TxFail: 0 BcnRx: 47 BcnSch: 49  RxFrames: 2 RxRetries: 0 TxRate: 72222 RxRate: 6000 FBRate: 21667 TxFwFrms: 2 TxFwFail:0 TxRetries: 0
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : BSS List info for network : SYLHET-NET_5G : chanCount5GHz: [1] chanCount24GHz: [0] chanCount6GHz: [0]
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : AP environment is Single Band AP for SYLHET-NET_5G(ac:15:a2:d5:e2:fc). Last applied environment is Single Band AP. Early exit ? : [0]. augmented from scan results ? : [1]
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: Copy current network requested by "WirelessRadioManagerd"
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : BSS List info for network : SYLHET-NET_5G : chanCount5GHz: [1] chanCount24GHz: [0] chanCount6GHz: [0]
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : AP environment is Single Band AP for SYLHET-NET_5G(ac:15:a2:d5:e2:fc). Last applied environment is Single Band AP. Early exit ? : [0]. augmented from scan results ? : [1]
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: Copy current network requested by "WirelessRadioManagerd"
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : BSS List info for network : SYLHET-NET_5G : chanCount5GHz: [1] chanCount24GHz: [0] chanCount6GHz: [0]
+Jun 11 18:30:22 MH-Jahed wifid(WiFiPolicy)[53] <Notice>: __WiFiDeviceManagerEvaluateAPEnvironment: WiFiRoam : AP environment is Single Band AP for SYLHET-NET_5G(ac:15:a2:d5:e2:fc). Last applied environment is Single Band AP. Early exit ? : [0]. augmented from scan results ? : [1]
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed WirelessRadioManagerd[51] <Notice>: <private>
+Jun 11 18:30:22 MH-Jahed backboardd(ColourSensorFilterPlugin)[70] <Notice>: [ALS] ts=3525.584 lux=6.182<private> xy=(0.342 0.350) chs=[119 238 263 243 203] CCT1=5242.963 gain=256x mode=
